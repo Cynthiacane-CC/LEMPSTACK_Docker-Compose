@@ -1,0 +1,9 @@
+#create .env and run acl special permission: setfacl -m u:root:rwx .env
+#put all your variable here
+TAG: latest
+MYSQL_ROOT_PASSWORD="<password>"
+MYSQL_USER= "<username>"
+MYSQL_PASSWORD="<user_pw>"
+MYSQL_DATABASE_PASSWORD="<db_name>"
+PMA_USER="<mySQL_password>"
+PMA_PASSWORD="<mySQL_password>"
